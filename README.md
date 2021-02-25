@@ -7,3 +7,22 @@
 我喜歡玩 Game
 
 ![車車](https://d1grca2t3zpuug.cloudfront.net/2021/01/puipuiinfo01.jpg)
+
+```C
+#include <stdio.h>
+int main()
+{
+  printf("Hello World\n");
+}
+```
+
+```Processing
+void setup(){
+  size(500,500);
+}
+void draw(){
+  background(255);
+  ellipse(200,200, 30,30);
+}
+
+```
